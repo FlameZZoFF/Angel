@@ -21,6 +21,14 @@
     width: 538px;
     margin-left: 26px;
 }
+.tab_img{
+    
+    
+}
+.tab_img_img{
+    
+
+}
 .header_link{
     cursor: pointer;
     top: 12px;
@@ -87,6 +95,16 @@ text-align: left;
     left: 0;
     left: 370px;
 }
+.cost_text1{
+margin-top: 25px; 
+font-family: 'Castoro', serif;
+font-size: 25px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+
+}
 .main_content{
     display: flex;
     flex-direction: column;
@@ -104,7 +122,7 @@ text-align: left;
 }
 .main_block1_h1{
     font-family: 'Antonio', sans-serif;
-    margin-left: 350px;
+    margin-left: 120px;
     color: #FFFFFF;
     font-weight: 700;
     font-size:50px;
@@ -117,7 +135,7 @@ text-align: left;
     font-weight: 400;
     font-size: 16px;
     line-height: 20.8px;
-    margin-left: 350px;
+    margin-left: 120px;
 }
 
 .main_block_h2-1{
@@ -326,7 +344,7 @@ margin-right: 40px;
 }
 
 .tab1_img{
-    margin-left: 200px;
+    
 }
 .cost_wrapper{
     align-items: center;
@@ -373,7 +391,7 @@ letter-spacing: 0em;
 }
 
 .footer{
-
+    height: 500px;
     margin-top: 144px;
     width: 100%;
     display: flex;
@@ -401,6 +419,7 @@ letter-spacing: 0em;
 }
 
 .footer_adress{
+    margin-bottom: 20px;
     display: flex;
 }
 .p_footer{
@@ -435,8 +454,8 @@ text-align: left;
 
 .tab1{
   
-    opacity: 0;
-    height: 0px;
+    display: none;
+    
 }
 
 .tab2_img{
@@ -449,13 +468,11 @@ text-align: left;
 
 .tab2{
     
-    opacity: 0;
-    height: 0px;
+    display: none;
 }
 .tab3{
    
-    opacity: 0;
-    height: 0px;
+    display: none;
 }
 
 .tab4_img{
@@ -463,24 +480,21 @@ text-align: left;
 }
 .tab4{
     
-    opacity: 0;
-    height: 0px;
+    display: none;
 }
 .tab5{
     
-    opacity: 0;
-    height: 0px;
+    display: none;
 }
 
 .tab6{
     
-    opacity: 0;
-    height: 0px;
+    display: none;
 }
 
 .active_tab{
     margin-top: 65px;
-    opacity: 1;
+    display: flex;
     height: auto;
 }
 
@@ -730,6 +744,8 @@ text-align: left;
 
     }
     .tabs{
+        min-height: fit-content;
+        padding: 0;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -737,8 +753,9 @@ text-align: left;
         
     }
     .tab{
-        
-        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .tab_text{
         
@@ -785,6 +802,7 @@ text-align: left;
           left: 285px;
   }
    .cost{
+    margin-top: 40px;
     width: 300px;
     height: fit-content;
    }
@@ -807,10 +825,11 @@ text-align: left;
   .main_block1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
+  
   .footer{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -819,6 +838,9 @@ text-align: left;
   .footer_contact{
     width: 200px;
     margin:0;
+  }
+  .footer_email{
+    margin-top: 10px;
   }
   .main_block3_block{
     margin-right: 0;
@@ -834,6 +856,13 @@ text-align: left;
   }
   .block3_block2{
     background-position-x:150px ;
+  }
+  .img_block3_techo{
+    width: 400px;
+    height: 400px;
+  }
+  .map{
+    margin-top: 15px;
   }
 
 }
