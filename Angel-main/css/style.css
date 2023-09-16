@@ -753,7 +753,9 @@ text-align: left;
     .block3_img_span{
         font-size: 20px;
     }
-    
+    .tab_button{
+        font-size: 11px;
+    }
   }
 
   @media(max-width:430px){
@@ -783,13 +785,14 @@ text-align: left;
           left: 285px;
   }
    .cost{
-    width: 250px;
+    width: 300px;
     height: fit-content;
    }
   .cost_image{
     width: 250px;
   }
   .cost_text{
+    margin-bottom: 40px;
     margin-left: 10px;
     font-size: 15px;
   }
