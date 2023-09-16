@@ -832,5 +832,8 @@ text-align: left;
   .main_block3_block{
     width: fit-content;
   }
+  .block3_block2{
+    background-position-x:150px ;
+  }
 
 }
