@@ -829,4 +829,8 @@ text-align: left;
     font-size: 16px;
   }
 
+  .main_block3_block{
+    width: fit-content;
+  }
+
 }
