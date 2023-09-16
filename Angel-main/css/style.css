@@ -725,11 +725,23 @@ text-align: left;
         display: flex;
         flex-wrap: wrap;
     }
-    .tab{
-        display: flex;
-        flex-direction: column-reverse;
+    .tab_button{
+        margin-top: 20px;
+
+    }
+    .tabs{
         align-items: center;
         justify-content: center;
+        text-align: center;
+    
+        
+    }
+    .tab{
+        
+        display: block;
+    }
+    .tab_text{
+        margin-left: 100px;
     }
     .block4_img_span{
         font-size: 20px;
