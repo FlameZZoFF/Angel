@@ -741,7 +741,11 @@ text-align: left;
         display: block;
     }
     .tab_text{
-        margin-left: 100px;
+        
+        margin-left: 60px;
+    }
+    .tab_img{
+        margin-left: 40px;
     }
     .block4_img_span{
         font-size: 20px;
