@@ -36,8 +36,9 @@
     position: absolute;
     font-size: 15px;
     line-height: 18.75px;
-    
 }
+
+
 .header_link{
     font-family: Castoro;
 font-size: 15px;
@@ -324,6 +325,11 @@ line-height: 19px;
 letter-spacing: 0em;
 text-align: center;
 margin-right: 15px;
+transition: 0.4s;
+}
+
+.tab_button:hover{
+    font-size: 20px;
 }
 
 .tab_text{
