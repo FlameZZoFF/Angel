@@ -884,3 +884,9 @@ text-align: left;
   }
 
 }
+
+@media(max-width:430px){
+    .img_block3_techo{
+        width: 340px;
+    }
+}
