@@ -41,6 +41,7 @@ margin-right: 100px;
 
 }
 .header_link{
+    font-family: 'Castoro', serif;
     cursor: pointer;
     top: 12px;
     color: #000000;
@@ -51,17 +52,13 @@ margin-right: 100px;
 
 
 .header_link{
-    font-family: Castoro;
+font-family: 'Castoro', serif;
 font-weight: 400;
 line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
-
-    font-size: 15px;
+font-size: 15px;
 }
 .span_img_block2{
     color: rgba(0, 0, 0, 1);
-    font-family: 'Castoro', serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 32.5px;
@@ -418,6 +415,7 @@ letter-spacing: 0em;
     margin-top: 72px;
     align-items: center;
     display: flex;
+    
 }
 
 .footer_email{
@@ -762,6 +760,9 @@ text-align: left;
   }
 
   @media(max-width:533px){
+    .header_contacts{
+        display: none;
+    }
     .tabs_buttons{
         display: flex;
         flex-wrap: wrap;
@@ -806,27 +807,9 @@ text-align: left;
 
     .header_tabs_img{
         margin-left: 10px;
-        width: 280px;
+       width: 350px;
     }
-    .header_link{
-        font-weight: bold;
-        font-size: 8px;
-    }
-    .header_link_1{
-        left: 50px;
-      }
-      .header_link_2{
-          left: 110px;
-      }
-      .header_link_3{
-          left: 180px;
-      }
-      .header_link_4{
-          left: 228px;
-      }
-      .header_link_5{
-          left: 285px;
-      }
+   
   }
 
   @media(max-width:430px){
