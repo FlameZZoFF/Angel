@@ -783,9 +783,13 @@ text-align: left;
     .tab_button{
         font-size: 11px;
     }
+    .tab_button:hover{
+        font-size: 13px;
+    }
   }
 
   @media(max-width:430px){
+    
     .map{
         height: 300px;
     }
