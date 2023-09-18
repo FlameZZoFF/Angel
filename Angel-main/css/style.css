@@ -57,7 +57,9 @@ font-weight: 400;
 line-height: 19px;
 font-size: 15px;
 }
+
 .span_img_block2{
+    font-family: 'Castoro', serif;
     color: rgba(0, 0, 0, 1);
     font-weight: 400;
     font-size: 25px;
@@ -454,6 +456,7 @@ text-align: left;
 }
 
 .footer_contact{
+margin-right: 24px;
 display: flex;
 background-repeat: no-repeat;
 text-align: center;
@@ -760,9 +763,6 @@ text-align: left;
   }
 
   @media(max-width:533px){
-    .header_contacts{
-        display: none;
-    }
     .tabs_buttons{
         display: flex;
         flex-wrap: wrap;
@@ -809,6 +809,31 @@ text-align: left;
         margin-left: 10px;
        width: 350px;
     }
+    .header_tabs_img{
+        width: 300px;
+    }
+    .header_contacts{
+        font-size: 9px;
+    }
+    .header_link{
+        font-size: 9px;
+    }
+    .header_link_1{
+        left: 53px;
+      }
+      .header_link_2{
+          left: 115px;
+      }
+      .header_link_3{
+          left: 190px;
+      }
+      .header_link_4{
+          left: 240px;
+      }
+      .header_link_5{
+          left: 300px;
+      }
+    
    
   }
 
