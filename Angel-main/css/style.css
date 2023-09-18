@@ -852,10 +852,10 @@ text-align: left;
         font-size: 9px;
     }
     .header_link{
-        font-size: 6px;
+        font-size: 7px;
     }
     .header_link_1{
-        left: 53px;
+        left: 50.5px;
       }
       .header_link_2{
           left: 100px;
@@ -942,7 +942,7 @@ text-align: left;
     }
 }
 
-@media(max-width:370px){
+@media(max-width:390px){
     .header_contacts{
         font-size: 7px;
     }
