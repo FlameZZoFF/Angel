@@ -941,3 +941,9 @@ text-align: left;
         width: 340px;
     }
 }
+
+@media(max-width:370px){
+    .header_contacts{
+        font-size: 7px;
+    }
+}
