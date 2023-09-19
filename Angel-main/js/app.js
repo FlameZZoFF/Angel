@@ -14,6 +14,18 @@ const mainblock3 = document.querySelector('.main_block4')
 const mainblock4 = document.querySelector('.cost_wrapper')
 const mainblock5 = document.querySelector('.footer')
 
+const header = document.querySelector('.header')
+const headerH = document.querySelector('.header').clientHeight
+
+document.onscroll = () =>{
+  let scroll = window.scrollY;
+  if (scroll > headerH){
+    header.classList.add('header_fixed')
+  }else{
+    header.classList.remove('header_fixed')
+  }
+}
+
 headerLink1.addEventListener('click',(e)=>{
   mainblock1.scrollIntoView({behavior:'smooth'})
   
