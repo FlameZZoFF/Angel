@@ -172,6 +172,7 @@ text-align: left;
     margin-top: 25px;
 }
 .main_block2{
+    scroll-margin-top:120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,6 +222,7 @@ text-align: left;
 }
 
 .main_block3{
+    scroll-margin-top:120px;
     max-width: 100%;
     margin-top:63px ;
     display:flex;
@@ -308,7 +310,7 @@ text-align: left;
 }
 
 .main_block4{
-
+    scroll-margin-top:120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -374,6 +376,7 @@ margin-right: 40px;
 margin-left: 79px;
 }
 .cost_wrapper{
+    scroll-margin-top:60px;
     align-items: center;
     justify-content: center;
     margin-top: 70px;
@@ -706,6 +709,10 @@ text-align: left;
       .header_link_5{
           left: 480px;
       }
+      .img_block3_techo{
+        margin-top: 0;
+      }
+      
   }
 
   @media(max-width:620px){
