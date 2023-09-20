@@ -23,11 +23,12 @@
 }
 .header_contacts{
     font-family: Castoro;
-font-size: 13px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    
 margin-left: auto;
 margin-right: 100px;
 }
@@ -247,9 +248,9 @@ text-align: left;
     flex-direction: row;
 }
 .img_block3_techo{
-    margin-left: 70px;
-    width: 525px;
-    height: 483px;
+    margin-top: 100px;
+    margin-left: 219px;
+    
     align-items: end;
 }
 
@@ -370,7 +371,7 @@ margin-right: 40px;
 }
 
 .tab1_img{
-    
+margin-left: 79px;
 }
 .cost_wrapper{
     align-items: center;
@@ -407,8 +408,10 @@ letter-spacing: 0em;
 
 }
 .cost_text{
-    margin-top: 40px;
-    font-family: Castoro;
+    margin-top: 30px;
+    text-align: center;
+    
+font-family: Castoro;
 font-size: 17px;
 font-weight: 400;
 line-height: 33px;
@@ -706,6 +709,9 @@ text-align: left;
   }
 
   @media(max-width:620px){
+    .tab1_img{
+        margin-left: 0px;
+        }
     .main_block2_blocks{
         flex-wrap: nowrap;
         align-items: center;

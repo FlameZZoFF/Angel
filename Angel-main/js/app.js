@@ -27,22 +27,22 @@ document.onscroll = () =>{
 }
 
 headerLink1.addEventListener('click',(e)=>{
-  mainblock1.scrollIntoView({behavior:'smooth'})
+  mainblock1.scrollIntoView({behavior:'smooth',block:'start'})
   
 })
 
 headerLink2.addEventListener('click',(e)=>{
-  mainblock2.scrollIntoView({behavior:'smooth'})
+  mainblock2.scrollIntoView({behavior:'smooth',block:'start'})
   
 })
 
 headerLink3.addEventListener('click',(e)=>{
-  mainblock3.scrollIntoView({behavior:'smooth'})
+  mainblock3.scrollIntoView({behavior:'smooth',block:'start'})
   
 })
 
 headerLink4.addEventListener('click',(e)=>{
-  mainblock4.scrollIntoView({behavior:'smooth'})
+  mainblock4.scrollIntoView({behavior:'smooth',block:'start'})
   
 })
 
